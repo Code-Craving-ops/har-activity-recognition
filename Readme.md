@@ -78,60 +78,6 @@ har-activity-recognition/
 | `requirements.txt`  | Required Python libraries                             |
 | `README.md`         | Project documentation                                 |
 
----
-
-## ⚙️ Installation
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/sujaljhasir-bit/har-activity-recognition.git
-```
-
-### 2. Navigate to the project directory
-
-```bash
-cd har-activity-recognition
-```
-
-### 3. Create a virtual environment (Optional)
-
-```bash
-python -m venv venv
-```
-
-Activate it on Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-### 4. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## ▶️ Running the Project
-
-Run the application using:
-
-```bash
-python app.py
-```
-
-If the project is configured as a Streamlit application, use:
-
-```bash
-streamlit run app.py
-```
-
-The application can then be used to provide sensor-related input and obtain the predicted human activity.
-
----
-
 ## 📊 Machine Learning Workflow
 
 The project follows a standard Machine Learning pipeline:
